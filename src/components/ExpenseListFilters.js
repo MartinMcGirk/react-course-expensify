@@ -69,6 +69,6 @@ const mapDispatchToProps = (dispatch) => ({
     setEndDate: (date) => dispatch(setEndDate(date))
 });
 
-const ConnectedExpenseListFilters = connect(mapStateToProps, mapDispatchToProps())(ExpenseListFilters);
+const ConnectedExpenseListFilters = connect(mapStateToProps, mapDispatchToProps)(ExpenseListFilters);
 
 export { ConnectedExpenseListFilters, ExpenseListFilters }
